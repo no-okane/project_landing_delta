@@ -1,5 +1,14 @@
 /* 1279~850 */
 @media screen and (max-width:1279px) {
+    /* 6행 후기===================================================================== */
+    #wrap #review_wrap .container {padding: 50px 80px;}
+
+    /* 7행 질의응답===================================================================== */ 
+    #wrap #qna_wrap .container {padding: 50px 80px;}
+
+    /* 8행 유의사항===================================================================== */
+    #wrap #warning_wrap .container {padding: 50px 80px;}
+
     /* 9행 풋터===================================================================== */
     #wrap #footer_wrap .container {padding: 50px 80px;}
     #wrap #footer_wrap .container .row1 .left{gap: 10px;}
@@ -22,9 +31,46 @@
 
 /* 849~320 */
 @media screen and (max-width:849px) {
+    /* 6행 후기===================================================================== */
+    #wrap #review_wrap .container{padding: 50px 15px;}
+    #wrap #review_wrap .container h1 {font-size: 1rem; margin-bottom: 50px;}
+    #wrap #review_wrap .container h1 em {font-size: 1.125rem;}
+    #wrap #review_wrap .container .wrap .review_list{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    #wrap #review_wrap .container .wrap .review_list .review{
+        width: calc(100% / 1);
+    }
+    #wrap #review_wrap .container .wrap .review_list .review:nth-of-type(2){display: none;}
+    #wrap #review_wrap .container .wrap .button a {width: 30px; height: 30px;}
+    #wrap #review_wrap .container .wrap .left a span{
+        background-size: 25%;
+        padding: 30px 25px 0px 0;
+    }
+    #wrap #review_wrap .container .wrap .right a span{
+        background-size: 20%;
+        padding: 30px 30px 0px 0;
+    }
+    #wrap #review_wrap .container .wrap .review_list .review .name{font-size: 0.875rem;}
+    #wrap #review_wrap .container .wrap .review_list .review .contents{font-size: 0.75rem;}
+
+    /* 7행 질의응답===================================================================== */ 
+    #wrap #qna_wrap .container{padding: 50px 15px;}
+    #wrap #qna_wrap .container h1 {font-size: 1.125rem;}
+    #wrap #qna_wrap .container .qna_list {gap: 10px;}
+    #wrap #qna_wrap .container .qna_list .qna {font-size: 0.75rem; padding: 10px 15px;}
+    #wrap #qna_wrap .container .qna_list .qna span:nth-of-type(2) {width: 11px; height: 4px;}
+
+    /* 8행 유의사항===================================================================== */
+    #wrap #warning_wrap .container{padding: 50px 15px;}
+    #wrap #warning_wrap .container h1 {font-size: 0.875rem; padding: 10px 15px;}
+    #wrap #warning_wrap .container .warning_list .warning {font-size: 0.75rem; padding: 10px 15px;}
+    #wrap #warning_wrap .container .warning_list .warning span:nth-of-type(2) {width: 11px; height: 4px;}
+
     /* 9행 풋터===================================================================== */
-    #wrap #footer_wrap .container{gap: 20px;}
-    #wrap #footer_wrap .container {padding: 50px 15px;}
+    #wrap #footer_wrap .container{padding: 50px 15px; gap: 20px;}
     #wrap #footer_wrap .container .row1{
         flex-flow: column nowrap;
         gap: 10px;
