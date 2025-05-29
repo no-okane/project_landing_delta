@@ -83,6 +83,7 @@
 
     #wrap #footer_wrap .container .row2 {font-size: 0.75rem;}
     #wrap #footer_wrap .container .row2 * {font-size: 0.75rem;}
+    #wrap #footer_wrap .container .row2 p {font-size: 0.75rem;}
     #wrap #footer_wrap .container .row2 p em{font-size: 0.75rem;}
     #wrap #footer_wrap .container .row2 .btn_pro{
         flex-flow: column nowrap;
