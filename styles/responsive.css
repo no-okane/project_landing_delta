@@ -89,7 +89,11 @@
         flex-flow: column nowrap;
         margin-right: auto;
     }
-    #wrap #footer_wrap .container .row2 div .button a{width: 190px; font-size: 0.75rem;}
+    #wrap #footer_wrap .container .row2 div .button a {
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 0.75rem;
+    }
     #wrap #footer_wrap .container .row2 div .button a span{background-position: 0 1px;}
     #wrap #footer_wrap .container .row2 div .protect {margin-right: auto;}
     #wrap #footer_wrap .container .row2 div .protect span{font-size: 0.75rem;}
