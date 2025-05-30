@@ -96,6 +96,7 @@
     #wrap #cury_wrap .container .cury_list .cury .left p {font-size: 0.75rem;}
     #wrap #cury_wrap .container .bottom_video p {font-size: 0.875rem;}
     #wrap #cury_wrap .container .bottom_video .video_grop {flex-flow: column nowrap;}
+    #wrap #cury_wrap .container .bottom_video .video_grop > div {margin: 0 auto;}
     /* 6행 후기===================================================================== */
     #wrap #review_wrap .container{padding: 50px 15px;}
     #wrap #review_wrap .container h1 {font-size: 1rem; margin-bottom: 50px;}
