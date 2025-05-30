@@ -1,4 +1,3 @@
-/* 40pt = 2.5rem */
 body * {transition: all 0.3s;}
 
 .container {
@@ -12,9 +11,233 @@ body * {transition: all 0.3s;}
 
 /* 1행 타이틀===================================================================== */
 /* 2행 타겟===================================================================== */
+#wrap #target_wrap {background: linear-gradient(180deg,rgba(0, 0, 0, 1) 70%, rgba(255, 247, 230, 1) 100%);}
+#wrap #target_wrap .container {margin: 0 auto; padding: 100px 0;}
+#wrap #target_wrap .container > * {color: #fff; text-align: center;}
+#wrap #target_wrap .container h1{
+    margin-bottom: 100px;
+    line-height: 160%;
+    font-size: 1.875rem;
+}
+#wrap #target_wrap .container h1 em{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+#wrap #target_wrap .container > p{line-height: 150%; margin-bottom: 40px; font-size: 1.375rem;}
+#wrap #target_wrap .container > p em{color: #FFB200; font-size: 2rem;}
+#wrap #target_wrap .container .target_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:20px;
+}
+#wrap #target_wrap .container .target_list div{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 60px;
+}
+#wrap #target_wrap .container .target_list div > *{text-align: left;}
+#wrap #target_wrap .container .target_list div p:nth-of-type(1){
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+#wrap #target_wrap .container .target_list .target1 p:nth-child(1){
+    background: url(../images/row2-1.png) no-repeat center / cover;
+}
+#wrap #target_wrap .container .target_list .target2 p:nth-child(1){
+    background: url(../images/row2-2.png) no-repeat center / cover;
+}
+#wrap #target_wrap .container .target_list .target3 p:nth-child(1){
+    background: url(../images/row2-3.png) no-repeat center / cover;
+}
+#wrap #target_wrap .container .target_list .target4 p:nth-child(1){
+    background: url(../images/row2-4.png) no-repeat center / cover;
+}
+#wrap #target_wrap .container .target_list div p{color: #666666; font-size: 1.125rem; line-height: 150%;}
+#wrap #target_wrap .container .target_list div p:nth-of-type(2){margin-bottom: 15px;}
+#wrap #target_wrap .container .target_list div p em{color: #000; font-size: 1.5rem; font-weight: 600;}
+
 /* 3행 혜택===================================================================== */
+#wrap #benefit_wrap {background-color: #FFF7E6;}
+#wrap #benefit_wrap .container{margin: 0 auto; padding: 100px 0;}
+#wrap #benefit_wrap .container * {color: #000;}
+#wrap #benefit_wrap .container h1{
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 160%;
+    font-size: 1.875rem;
+}
+#wrap #benefit_wrap .container h1 em{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#wrap #benefit_wrap .container > p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+#wrap #benefit_wrap .container .benefit_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+#wrap #benefit_wrap .container .benefit_list div{
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding: 60px 50px;
+}
+#wrap #benefit_wrap .container .benefit_list div p{
+    margin: 0 auto;
+    text-align: center;
+}
+#wrap #benefit_wrap .container .benefit_list div p:nth-of-type(1){
+    width: 150px;
+    height: 150px;
+    margin-bottom: 60px;
+}
+#wrap #benefit_wrap .container .benefit_list div p:nth-of-type(2){
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+#wrap #benefit_wrap .container .benefit_list div p:nth-of-type(3){
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+#wrap #benefit_wrap .container .benefit_list .num1{}
+#wrap #benefit_wrap .container .benefit_list .num1 p:nth-of-type(1){
+    background: url(../images/row3-1.png) no-repeat center / cover;
+}
+#wrap #benefit_wrap .container .benefit_list .num2{}
+#wrap #benefit_wrap .container .benefit_list .num2 p:nth-of-type(1){
+    background: url(../images/row3-2.png) no-repeat center / cover;
+}
+#wrap #benefit_wrap .container .benefit_list .num3{}
+#wrap #benefit_wrap .container .benefit_list .num3 p:nth-of-type(1){
+    background: url(../images/row3-3.png) no-repeat center / cover;
+    background-size: 90%;
+}
 /* 4행 특징===================================================================== */
 /* 5행 커리큘럼===================================================================== */ 
+#wrap #cury_wrap {background-color: #2E2E2E;}
+#wrap #cury_wrap .container {margin: 0 auto; padding: 100px 0;}
+#wrap #cury_wrap .container > * {text-align: center;}
+#wrap #cury_wrap .container > p {
+    color: #FFB200;
+    font-size: 1.875rem;
+    margin-bottom: 15px;
+}
+#wrap #cury_wrap .container h1::before {
+    content: '';
+    display: inline-block;
+    background-color: #fff;
+    width: calc((100% - (30px + 760px)) / 2);
+    height: 2px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+#wrap #cury_wrap .container h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0 0 80px 0;
+}
+#wrap #cury_wrap .container h1::after {
+    content: '';
+    display: inline-block;
+    background-color: #fff;
+    width: calc((100% - (30px + 760px)) / 2);
+    height: 2px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+#wrap #cury_wrap .container .cury_list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+#wrap #cury_wrap .container .cury_list > * {text-align: left;}
+#wrap #cury_wrap .container .cury_list .cury {
+    padding: 50px 100px;
+    background-color: #666666;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+#wrap #cury_wrap .container .cury_list .cury .top {display: none;}
+#wrap #cury_wrap .container .cury_list .cury .left {
+    width: calc(100% - (450px));
+}
+#wrap #cury_wrap .container .cury_list .cury .left .point {
+    background-color: #FFB200;
+    width: max-content;
+    padding: 10px 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+#wrap #cury_wrap .container .cury_list .cury .left h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    line-height: 130%;
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid #FFB200;
+}
+#wrap #cury_wrap .container .cury_list .cury .left p {
+    color: #D0D0D0;
+    line-height: 170%;
+}
+#wrap #cury_wrap .container .cury_list .cury .right {
+    width: 450px; height: 250px;
+    background-color: antiquewhite;
+}
+#wrap #cury_wrap .container .cury_list .cury1 .right {
+    background: url(../images/row5-1.png)no-repeat center / cover;
+}
+#wrap #cury_wrap .container .cury_list .cury2 .right {
+    background: url(../images/row5-2.png)no-repeat center / cover;
+}
+#wrap #cury_wrap .container .cury_list .cury3 .right {
+    background: url(../images/row5-3.png)no-repeat center / cover;
+}
+#wrap #cury_wrap .container .cury_list .cury4 .right {
+    background: url(../images/row5-4.png)no-repeat center / cover;
+}
+#wrap #cury_wrap .container .bottom_video {}
+#wrap #cury_wrap .container .bottom_video > * {
+    margin: 0 auto;
+}
+#wrap #cury_wrap .container .bottom_video p {
+    width: max-content;
+    padding: 10px 20px;
+    background-color: #FFB200;
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#wrap #cury_wrap .container .bottom_video .video_grop {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 60px;
+}
+#wrap #cury_wrap .container .bottom_video .video_grop > div {
+    width: 480px; height: 270px;
+    overflow: hidden;
+}
+#wrap #cury_wrap .container .bottom_video .video_grop > div iframe {
+    width: 100%;
+    display: block;
+}
+
 /* 6행 후기===================================================================== */
 #wrap #review_wrap {background-color: #FFEB60;}
 #wrap #review_wrap .container {margin: 0 auto; padding: 100px 0;}
@@ -164,7 +387,6 @@ body * {transition: all 0.3s;}
     background-color: #333333;
 }
 #wrap #footer_wrap .container{
-    /* width: 1280px; */
     margin: 0 auto;
     display: grid;
     gap: 30px;

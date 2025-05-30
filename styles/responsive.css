@@ -1,5 +1,21 @@
 /* 1279~850 */
 @media screen and (max-width:1279px) {
+    /* 2행 타겟===================================================================== */
+    #wrap #target_wrap .container {padding: 50px 80px;}
+    /* 3행 혜택===================================================================== */
+    #wrap #benefit_wrap .container {padding: 50px 80px;}
+    #wrap #benefit_wrap .container .benefit_list div{padding: 60px 30px;}
+    #wrap #benefit_wrap .container .benefit_list div p:nth-of-type(1){
+        width: 110px;
+        height: 110px;
+        margin-bottom: 40px;
+    }
+    #wrap #benefit_wrap .container .benefit_list div p:nth-of-type(3){line-height: 130%;}
+
+    /* 5행 커리큘럼===================================================================== */ 
+    #wrap #cury_wrap .container {padding: 50px 80px;}
+    #wrap #cury_wrap .container .cury_list .cury {padding: 50px 60px;}
+
     /* 6행 후기===================================================================== */
     #wrap #review_wrap .container {padding: 50px 80px;}
 
@@ -32,6 +48,54 @@
 
 /* 849~320 */
 @media screen and (max-width:849px) {
+    /* 2행 타겟===================================================================== */
+    #wrap #target_wrap .container{padding: 50px 15px;}
+    #wrap #target_wrap .container h1{font-size: 0.875rem; margin-bottom: 50px;}
+    #wrap #target_wrap .container h1 em {font-size: 1.125rem;}
+    #wrap #target_wrap .container > p {font-size: 0.875rem; margin-bottom: 20px;}
+    #wrap #target_wrap .container > p em {font-size: 1.25rem;}
+    #wrap #target_wrap .container .target_list{grid-template-columns: 1fr; gap:10px;}
+    #wrap #target_wrap .container .target_list div{padding: 30px 40px;}
+    #wrap #target_wrap .container .target_list div p:nth-of-type(1){
+        width: 50px; height: 50px;
+        margin-bottom: 10px;
+    }
+    #wrap #target_wrap .container .target_list div p{font-size: 0.75rem;}
+    #wrap #target_wrap .container .target_list div p:nth-of-type(2){margin-bottom: 10px;}
+    #wrap #target_wrap .container .target_list div p em{font-size: 1rem;}
+
+    /* 3행 혜택===================================================================== */
+    #wrap #benefit_wrap .container{padding: 50px 15px;}
+    #wrap #benefit_wrap .container h1{font-size: 0.875rem; margin-bottom: 50px;}
+    #wrap #benefit_wrap .container h1 em {font-size: 1.125rem;}
+    #wrap #benefit_wrap .container > p {font-size: 1rem;}
+    #wrap #benefit_wrap .container .benefit_list{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    #wrap #benefit_wrap .container .benefit_list div{padding: 30px 50px;}
+    #wrap #benefit_wrap .container .benefit_list div p:nth-of-type(1){margin-bottom: 20px; width: 70px; height: 70px;}
+    #wrap #benefit_wrap .container .benefit_list div p:nth-of-type(2){font-size: 0.75rem; margin-bottom: 5px;}
+    #wrap #benefit_wrap .container .benefit_list div p:nth-of-type(3){font-size: 1rem;}
+
+    /* 5행 커리큘럼===================================================================== */ 
+    #wrap #cury_wrap .container{padding: 50px 15px;}
+    #wrap #cury_wrap .container p {font-size: 1.125rem;}
+    #wrap #cury_wrap .container h1 {font-size: 1.125rem;}
+    #wrap #cury_wrap .container .cury_list .cury {flex-flow: column nowrap; gap: 20px;}
+    #wrap #cury_wrap .container .cury_list .cury .right {display: none;}
+    #wrap #cury_wrap .container .cury_list .cury .top {display: block; width: 297px; height: 165px;}
+    #wrap #cury_wrap .container .cury_list .cury .left {width: 100%;}
+    #wrap #cury_wrap .container .cury_list .cury1 .top {background: url(../images/row5-1.png)no-repeat center / cover;}
+    #wrap #cury_wrap .container .cury_list .cury2 .top {background: url(../images/row5-2.png)no-repeat center / cover;}
+    #wrap #cury_wrap .container .cury_list .cury3 .top {background: url(../images/row5-3.png)no-repeat center / cover;}
+    #wrap #cury_wrap .container .cury_list .cury4 .top {background: url(../images/row5-4.png)no-repeat center / cover;}
+    #wrap #cury_wrap .container .cury_list .cury .left .point {font-size: 0.75rem; padding: 5px 10px;}
+    #wrap #cury_wrap .container .cury_list .cury .left h2 {font-size: 0.875rem;}
+    #wrap #cury_wrap .container .cury_list .cury .left h2 br {display: none;}
+    #wrap #cury_wrap .container .cury_list .cury .left p {font-size: 0.75rem;}
+    #wrap #cury_wrap .container .bottom_video p {font-size: 0.875rem;}
+    #wrap #cury_wrap .container .bottom_video .video_grop {flex-flow: column nowrap;}
     /* 6행 후기===================================================================== */
     #wrap #review_wrap .container{padding: 50px 15px;}
     #wrap #review_wrap .container h1 {font-size: 1rem; margin-bottom: 50px;}
