@@ -17,10 +17,11 @@
     #wrap #footer_wrap .container .row1 .right{gap: 10px;}
     #wrap #footer_wrap .container .row1 .right * {font-size: 0.875rem;}
     #wrap #footer_wrap .container .row1 .right a::after{height: 13px;}
+    #wrap #footer_wrap .container .row2 .btn_pro .button {width: 426px;}
     #wrap #footer_wrap .container .row2 .btn_pro .button a{
-        width: 208px;
         font-size: 0.875rem;
         align-items: center;
+        width: calc(100% / 2);
     }
     #wrap #footer_wrap .container .row3{
         flex-flow: column wrap;
@@ -89,12 +90,12 @@
         flex-flow: column nowrap;
         margin-right: auto;
     }
-    #wrap #footer_wrap .container .row2 div .button a {
-        justify-content: space-between;
-        gap: 10px;
+    #wrap #footer_wrap .container .row2 .btn_pro .button {width: 410px;}
+    #wrap #footer_wrap .container .row2 .btn_pro .button a {
         font-size: 0.75rem;
+        width: calc(100% / 2);
     }
-    #wrap #footer_wrap .container .row2 div .button a span{background-position: 0 1px;}
+    #wrap #footer_wrap .container .row2 .btn_pro .button a span{background-position: 0 1px;}
     #wrap #footer_wrap .container .row2 div .protect {margin-right: auto;}
     #wrap #footer_wrap .container .row2 div .protect span{font-size: 0.75rem;}
 
