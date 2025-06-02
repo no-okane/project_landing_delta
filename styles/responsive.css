@@ -71,7 +71,7 @@
     #wrap #benefit_wrap .container > p {font-size: 1rem;}
     #wrap #benefit_wrap .container .benefit_list{
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 10px;
     }
     #wrap #benefit_wrap .container .benefit_list div{padding: 30px 50px;}
     #wrap #benefit_wrap .container .benefit_list div p:nth-of-type(1){margin-bottom: 20px; width: 70px; height: 70px;}
@@ -81,8 +81,8 @@
     /* 5행 커리큘럼===================================================================== */ 
     #wrap #cury_wrap .container{padding: 50px 15px;}
     #wrap #cury_wrap .container p {font-size: 1.125rem;}
-    #wrap #cury_wrap .container h1 {font-size: 1.125rem;}
-    #wrap #cury_wrap .container .cury_list .cury {flex-flow: column nowrap; gap: 20px;}
+    #wrap #cury_wrap .container h1 {font-size: 1.125rem; margin-bottom: 50px;}
+    #wrap #cury_wrap .container .cury_list .cury {flex-flow: column nowrap; gap: 20px; padding: 50px 50px;}
     #wrap #cury_wrap .container .cury_list .cury .right {display: none;}
     #wrap #cury_wrap .container .cury_list .cury .top {display: block; width: 297px; height: 165px;}
     #wrap #cury_wrap .container .cury_list .cury .left {width: 100%;}
@@ -94,9 +94,9 @@
     #wrap #cury_wrap .container .cury_list .cury .left h2 {font-size: 0.875rem;}
     #wrap #cury_wrap .container .cury_list .cury .left h2 br {display: none;}
     #wrap #cury_wrap .container .cury_list .cury .left p {font-size: 0.75rem;}
-    #wrap #cury_wrap .container .bottom_video p {font-size: 0.875rem;}
-    #wrap #cury_wrap .container .bottom_video .video_grop {flex-flow: column nowrap;}
-    #wrap #cury_wrap .container .bottom_video .video_grop > div {margin: 0 auto;}
+    #wrap #cury_wrap .container .bottom_video p {font-size: 0.875rem; margin-bottom: 20px;}
+    #wrap #cury_wrap .container .bottom_video .video_grop {flex-flow: column nowrap; gap: 10px;}
+    #wrap #cury_wrap .container .bottom_video .video_grop > div {margin: 0 auto; width: 400px; height: 225px;}
     /* 6행 후기===================================================================== */
     #wrap #review_wrap .container{padding: 50px 15px;}
     #wrap #review_wrap .container h1 {font-size: 1rem; margin-bottom: 50px;}
