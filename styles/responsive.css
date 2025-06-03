@@ -14,6 +14,7 @@
 
 
     /* 4행 특징===================================================================== */
+    #wrap #feature_wrap {background: url(../images/row4_background.jpg) no-repeat 60% 0 / cover;}
     #wrap #feature_wrap .container {padding: 50px 80px;}
 
     /* 5행 커리큘럼===================================================================== */ 
@@ -83,7 +84,32 @@
     #wrap #benefit_wrap .container .benefit_list div p:nth-of-type(3){font-size: 1rem;}
 
     /* 4행 특징===================================================================== */
+    #wrap #feature_wrap {background: url(../images/row4_background.jpg) no-repeat 85% 0 / cover;}
     #wrap #feature_wrap .container{padding: 50px 15px;}
+    #wrap #feature_wrap .container > p {font-size: 0.875rem; padding: 5px 10px;}
+    #wrap #feature_wrap .container h1 {font-size: 1rem; margin-top: 10px; margin-bottom: 50px;}
+    #wrap #feature_wrap .container h2 {font-size: 1.125rem; margin-bottom: 20px;}
+    #wrap #feature_wrap .container h2 em:nth-of-type(2) {font-size: 1.25rem;}
+    #wrap #feature_wrap .container .feature_list .top{
+        grid-template-areas: 
+        'top1'
+        'content1' 
+        'content2'
+        'content3'
+        ;
+    }
+    #wrap #feature_wrap .container .feature_list .bottme {
+        grid-template-areas: 
+        'top1'
+        'content4' 
+        'content5'
+        'content6'
+        ;
+    }
+    #wrap #feature_wrap .container .feature_list > div > h3 {font-size: 0.875rem;}
+    #wrap #feature_wrap .container .feature_list > div .group {padding: 40px 50px;}
+    #wrap #feature_wrap .container .feature_list > div .group h4 {font-size: 0.875rem;}
+    #wrap #feature_wrap .container .feature_list > div .group p {font-size: 0.75rem;}
 
     /* 5행 커리큘럼===================================================================== */ 
     #wrap #cury_wrap .container{padding: 50px 15px;}
