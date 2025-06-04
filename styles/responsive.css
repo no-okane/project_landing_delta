@@ -204,7 +204,7 @@
         flex-flow: column nowrap;
         gap: 10px;
 
-        width: 90%;
+        width: 91%;
     }
     #wrap #footer_wrap .container .row1 .left {gap: 7px;}
     #wrap #footer_wrap .container .row1 .left * {font-size: 0.75rem;}
