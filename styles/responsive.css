@@ -204,7 +204,7 @@
         flex-flow: column nowrap;
         gap: 10px;
 
-        width: 90%;
+        width: 88%;
     }
     #wrap #footer_wrap .container .row1 .left {gap: 7px;}
     #wrap #footer_wrap .container .row1 .left * {font-size: 0.75rem;}
@@ -225,7 +225,7 @@
     #wrap #footer_wrap .container .row2 .btn_pro .button {width: 410px;}
     #wrap #footer_wrap .container .row2 .btn_pro .button a {
         font-size: 0.75rem;
-        width: 45% ; /* calc((100% / 2) - 10px) */
+        width: 46% ; /* calc((100% / 2) - 10px) */
     }
     #wrap #footer_wrap .container .row2 .btn_pro .button a span{background-position: 0 1px;}
     #wrap #footer_wrap .container .row2 div .protect {margin-right: auto;}
