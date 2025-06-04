@@ -203,11 +203,13 @@
         flex-flow: column nowrap;
         gap: 10px;
     }
-    #wrap #footer_wrap .container .row1 .left * {font-size: 0.75rem; gap: 10px;}
-    #wrap #footer_wrap .container .row1 .left a::after{height: 11px;}
+    #wrap #footer_wrap .container .row1 .left {gap: 7px;}
+    #wrap #footer_wrap .container .row1 .left * {font-size: 0.75rem;}
+    #wrap #footer_wrap .container .row1 .left a::after{height: 11px; margin-left: 7px;}
+    #wrap #footer_wrap .container .row1 .right {gap: 7px;}
     #wrap #footer_wrap .container .row1 .right * {font-size: 0.75rem;}
     #wrap #footer_wrap .container .row1 .right a span{width: 10px; height: 10px;}
-    #wrap #footer_wrap .container .row1 .right a::after{height: 11px;}
+    #wrap #footer_wrap .container .row1 .right a::after{height: 11px; margin-left: 7px;}
 
     #wrap #footer_wrap .container .row2 {font-size: 0.75rem;}
     #wrap #footer_wrap .container .row2 * {font-size: 0.75rem;}
