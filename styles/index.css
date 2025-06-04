@@ -500,6 +500,7 @@ body * {transition: all 0.3s;}
     width: 16px;
     height: 8px;
     background: url(../images/faq1.png) no-repeat center / cover;
+    margin-left: 10px;
 }
 /* 8행 유의사항===================================================================== */
 #wrap #warning_wrap {background-color: #F5F5F5;}
@@ -551,6 +552,7 @@ body * {transition: all 0.3s;}
 
     border-bottom: 1px solid #969696;
     padding: 15px 0;
+    width: 98%;
 }
 #wrap #footer_wrap .container .row1 .left{
     display: flex;
